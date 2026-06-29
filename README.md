@@ -1,20 +1,22 @@
 # 中文自托管与 NAS 工具清单
 
+> 家庭服务器、NAS、个人云、相册、媒体库、密码库和监控工具整理。
+
 ![preview](assets/preview.png)
 
-自托管的乐趣是东西都在自己手里，麻烦也是东西都在自己手里。这个仓库会优先收成熟项目，不鼓励把半成品服务直接暴露公网。
+## Overview
 
-先备份，再折腾。没有备份的 NAS 只是一个看起来很高级的单点故障。
+整理自托管入口、Docker 管理、相册、影音、网盘、密码库、Git 服务和监控工具。
 
-## 先看这几个
+本仓库只保留与主题直接相关、入口稳定、说明清晰的资源。优先收录官方文档、主流开源仓库、长期可访问的产品页面和常用工具链。
+
+## Key Resources
 
 awesome-selfhosted / Docker / CasaOS / Immich
 
-Docker Compose、反向代理、备份策略先准备好，再上 Immich、Jellyfin、Nextcloud。
+## Resources
 
-## 入口
-
-| 名称 | 我为什么留它 |
+| Resource | Use case |
 | --- | --- |
 | [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 自托管项目大列表。 |
 | [Docker](https://www.docker.com/) | 容器基础设施。 |
@@ -25,25 +27,29 @@ Docker Compose、反向代理、备份策略先准备好，再上 Immich、Jelly
 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | 轻量 Bitwarden 兼容服务。 |
 | [Uptime Kuma](https://github.com/louislam/uptime-kuma) | 自托管监控面板。 |
 
-## 我的使用顺序
+## Recommended Path
 
-- 先用 Docker Compose 管理服务。
-- 所有外网暴露服务都要有 HTTPS 和强密码。
-- 先搭备份，再搭相册和网盘。
+1. 先用 Docker Compose 管理服务。
+2. 所有外网暴露服务都要有 HTTPS 和强密码。
+3. 先搭备份，再搭相册和网盘。
 
-## 别踩坑
+## Notes
 
-- 不要把管理面板直接暴露公网。
-- 家庭 NAS 最大风险不是部署失败，而是硬盘坏了没备份。
+- 避免将管理面板直接暴露到公网。
+- 家庭 NAS 的核心风险是缺少可靠备份，而不是部署失败。
 
-## 截图来源
+## Screenshot
 
-这张图来自公开页面：[https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)。如果页面改版，截图可能会和当前官网略有出入。
+Source: [https://github.com/awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)
 
-## 维护方式
+## Data
 
-链接数据放在 [`data/links.json`](data/links.json)。我倾向于少而准：入口失效就换，说明过时就改，不把这里做成什么都往里塞的大杂烩。
+Structured resource data is available in [`data/links.json`](data/links.json).
+
+## Contributing
+
+PRs are welcome for official links, documentation updates, screenshot refreshes, and concise use-case descriptions. Please avoid mirrors, cracked software, referral links, and unverified downloads.
 
 ## License
 
-MIT. 第三方商标、页面截图和网站内容归原权利方所有；本仓库只做中文导航和使用笔记。
+MIT. Third-party trademarks, screenshots, and website content belong to their respective owners.
