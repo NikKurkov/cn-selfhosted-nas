@@ -1,0 +1,60 @@
+{
+  "title": "自托管服务与 NAS 工具",
+  "slug": "selfhosted-nas",
+  "category": "自托管 / NAS",
+  "audience": "想搭家庭服务器、NAS、个人云和内网服务的人",
+  "hero_url": "https://github.com/awesome-selfhosted/awesome-selfhosted",
+  "summary": "整理自托管入口、Docker 管理、相册、影音、网盘、密码库、Git 服务和监控工具。",
+  "why_hot": "自托管和 NAS 是高收藏属性主题，适合从入门到项目清单持续更新。",
+  "entries": [
+    [
+      "awesome-selfhosted",
+      "https://github.com/awesome-selfhosted/awesome-selfhosted",
+      "自托管项目大列表。"
+    ],
+    [
+      "Docker",
+      "https://www.docker.com/",
+      "容器基础设施。"
+    ],
+    [
+      "CasaOS",
+      "https://casaos.io/",
+      "家庭云系统。"
+    ],
+    [
+      "Immich",
+      "https://github.com/immich-app/immich",
+      "自托管相册。"
+    ],
+    [
+      "Jellyfin",
+      "https://jellyfin.org/",
+      "自托管媒体服务器。"
+    ],
+    [
+      "Nextcloud",
+      "https://nextcloud.com/",
+      "个人云盘和协作平台。"
+    ],
+    [
+      "Vaultwarden",
+      "https://github.com/dani-garcia/vaultwarden",
+      "轻量 Bitwarden 兼容服务。"
+    ],
+    [
+      "Uptime Kuma",
+      "https://github.com/louislam/uptime-kuma",
+      "自托管监控面板。"
+    ]
+  ],
+  "quick_start": [
+    "先用 Docker Compose 管理服务。",
+    "所有外网暴露服务都要有 HTTPS 和强密码。",
+    "先搭备份，再搭相册和网盘。"
+  ],
+  "pitfalls": [
+    "不要把管理面板直接暴露公网。",
+    "家庭 NAS 最大风险不是部署失败，而是硬盘坏了没备份。"
+  ]
+}
